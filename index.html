@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<htm lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Praveen G Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+         <!-- Update these with your own fonts -->
+         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+         <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <!-- <img src="img/devjane.png" alt=""> -->
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi,I am<strong>Praveen G</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software developer</p>
+            <img src="img/praveen-g-01.png" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        <!--My services-->
+        <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Web app development</h3>
+                <p>I am an experience web application developer, who works using Javascript technologies like Angular,ReactJS and NodeJS</p>
+            </div> <!-- / service -->
+            <div class="service">
+                <h3>Analytics Dashboard</h3>
+                <p>I have also worked in developing Analytics dashboard for ecommerce brands using microsoft power BI</p>
+            </div> <!-- / service -->
+        </div>
+        <a href="#work" class="btn">My Work</a>
+        </section>
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Javascript developer based on Kerala,India</p>
+            
+            <div class="about-me__body">
+                <p>Dynamic and Innovative Software Developer with 3.6+ years of experience in building and maintaining application. Proficient in Javascript technologies</p>
+            </div>
+            
+            <img src="img/praveen-g-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
+         </section>
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work"></p>
+            <div class="portfolio">
+                 <!-- Portfolio item 01 -->
+                 <a href="https://praveeng924.github.io/eshop/" target="_blank" class="portfolio__item">
+                    <img src="img/ecom-eshop-01.png" alt="" class="portfolio__img">
+                </a>
+                  <!-- Portfolio item 02 -->
+                  <a href="#" class="portfolio__item">
+                    <img src="img/ecom-eshop-04.png" alt="" class="portfolio__img">
+                </a>
+                 <!-- Portfolio item 03 -->
+                 <a href="https://praveeng924.github.io/admin/" target="_blank" class="portfolio__item">
+                    <img src="img/ecom-eshop-admin.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:praveengopakumar1@gmail.com" class="footer__link">praveengopakumar1@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://in.linkedin.com/in/praveen-gopakumar-400445166">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://github.com/praveeng924">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+
+</htm>
